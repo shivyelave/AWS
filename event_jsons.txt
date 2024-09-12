@@ -1,0 +1,36 @@
+1. Create a File:
+
+{
+  "operation": "create",
+  "bucket_name": "lambda.busket",
+  "file_name": "myfile.txt",
+  "file_content": "This is the content of the file."
+}
+
+
+2. Read a File:
+
+{
+  "operation": "read",
+  "bucket_name": "lambda.busket",
+  "file_name": "myfile.txt"
+}
+
+
+3. Update a File:
+
+{
+  "operation": "update",
+  "bucket_name": "lambda.busket",
+  "file_name": "myfile.txt",
+  "file_content": "This is the updated content of the file."
+}
+
+
+4. Delete a File:
+
+{
+  "operation": "delete",
+  "bucket_name": "lambda.busket",
+  "file_name": "myfile.txt"
+}
